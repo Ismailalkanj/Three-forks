@@ -1,39 +1,38 @@
 /* Fonts */
 
 @font-face {
-    font-family: Gloria;
-    src: url(/materials/fonts/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf);
+  font-family: Gloria;
+  src: url(/materials/fonts/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf);
 }
 
 @font-face {
-    font-family: Tangerine_regular;
-    src: url(/materials/fonts/Tangerine/Tangerine-Regular.ttf);
+  font-family: Tangerine_regular;
+  src: url(/materials/fonts/Tangerine/Tangerine-Regular.ttf);
 }
 
 @font-face {
-    font-family: Tangerine_bold;
-    src: url(/materials/fonts/Tangerine/Tangerine-Bold.ttf);
+  font-family: Tangerine_bold;
+  src: url(/materials/fonts/Tangerine/Tangerine-Bold.ttf);
 }
 
 /*style which is applied accross the whole website*/
 
 .img_circle {
-    border-radius: 100%;
-  }
+  border-radius: 100%;
+}
 
-body{
-    background-image: url(/materials/pictures/background.jpeg);
-    background-size: cover;
-    color: white;
-    font-size: 20px;
-    font-family: Gloria;
+body {
+  background-image: url(/materials/pictures/background.jpeg);
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+  font-family: Gloria;
 }
 
 h1 {
-    font-family: Tangerine_bold;
-    font-size: 5em;
+  font-family: Tangerine_bold;
+  font-size: 5em;
 }
-
 
 /*recipe page css */
 
@@ -49,10 +48,20 @@ h1 {
   margin: 3% 20%;
 }
 
-.share-logo a{
-    width:100%;
+.share-logo a {
+  width: 100%;
 }
 
 .share-logo a img {
   width: 60%;
+}
+
+.recommendations a {
+  text-decoration: none;
+  color: white;
+}
+
+.recommendations a img:hover,
+.recommendations h4:hover {
+  transform: scale(1.3);
 }
