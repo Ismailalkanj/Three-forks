@@ -1,81 +1,77 @@
 /* Fonts */
 
 @font-face {
-    font-family: Gloria;
-    src: url(/materials/fonts/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf);
+  font-family: Gloria;
+  src: url(/materials/fonts/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf);
 }
 
 @font-face {
-    font-family: Tangerine_regular;
-    src: url(/materials/fonts/Tangerine/Tangerine-Regular.ttf);
+  font-family: Tangerine_regular;
+  src: url(/materials/fonts/Tangerine/Tangerine-Regular.ttf);
 }
 
 @font-face {
-    font-family: Tangerine_bold;
-    src: url(/materials/fonts/Tangerine/Tangerine-Bold.ttf);
+  font-family: Tangerine_bold;
+  src: url(/materials/fonts/Tangerine/Tangerine-Bold.ttf);
 }
 nav {
-    border: 2px solid red;
-    /* display: flex; */
-    /* justify-content: center; */
-    display: flex;
-    justify-content: space-between;
-    
+  border: 2px solid red;
+  /* display: flex; */
+  /* justify-content: center; */
+  display: flex;
+  justify-content: space-between;
 }
 .logo {
-    border: 2px solid rgb(197, 20, 200);
-    padding: 40px;
-    margin-left: 30px;
-    margin-top: 30px;
+  border: 2px solid rgb(197, 20, 200);
+  padding: 40px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 h1 {
-    border: 2px solid rgb(43, 0, 255);
-    margin-left: 70px;
-    margin-top: 50px;
-
+  border: 2px solid rgb(43, 0, 255);
+  margin-left: 70px;
+  margin-top: 50px;
 }
 ul {
-    border: 2px solid violet;
-    
+  border: 2px solid violet;
 }
 li {
-    display: inline-flex;
-    border: 2px solid yellowgreen;
-    margin: 18px;
-    padding: 8px;
+  display: inline-flex;
+  border: 2px solid yellowgreen;
+  margin: 18px;
+  padding: 8px;
 }
 .we-are {
-    border: 2px  solid green;
-    padding-left: 10px;
-    border-radius: 2px;
-    margin-left: 1000px;
-    margin-top: 60px;
-    /* margin: 10px 2px 2000px  100px; */
-    max-width:max-content;
+  border: 2px solid green;
+  padding-left: 10px;
+  border-radius: 2px;
+  margin-left: 1000px;
+  margin-top: 60px;
+  /* margin: 10px 2px 2000px  100px; */
+  max-width: max-content;
 }
-    
 
 /*style which is applied accross the whole website*/
 
 .img_circle {
-    border-radius: 100%;
-  }
+  border-radius: 100%;
+}
 
-body{
-    background-image: url(/materials/pictures/background.jpeg);
-    background-size: cover;
-    color: white;
-    font-size: 20px;
-    font-family: Gloria;
+body {
+  background-image: url(/materials/pictures/background.jpeg);
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+  font-family: Gloria;
 }
 
 h1 {
-    font-family: Tangerine_bold;
-    font-size: 5em;
+  font-family: Tangerine_bold;
+  font-size: 5em;
 }
 
-.logo-brand{
-    width:30%;
+.logo-brand {
+  width: 30%;
 }
 
 /*recipe page css */
@@ -92,11 +88,20 @@ h1 {
   margin: 3% 20%;
 }
 
-.share-logo a{
-    width:100%;
+.share-logo a {
+  width: 100%;
 }
 
 .share-logo a img {
   width: 60%;
 }
 
+.recommendations a {
+  text-decoration: none;
+  color: white;
+}
+
+.recommendations a img:hover,
+.recommendations h4:hover {
+  transform: scale(1.3);
+}
