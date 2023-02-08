@@ -74,6 +74,9 @@ h1 {
     font-size: 5em;
 }
 
+.logo-brand{
+    width:30%;
+}
 
 /*recipe page css */
 
@@ -96,3 +99,4 @@ h1 {
 .share-logo a img {
   width: 60%;
 }
+
