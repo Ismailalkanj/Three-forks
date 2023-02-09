@@ -41,24 +41,24 @@
           <div class="col-lg-3">
             <div class="row form-group">
                 <div class="col">
-                    <a href="#"><img src="/materials/pictures/brusselSprouts.jpg" alt="brusselSprouts" class="img_circle img-thumbnail img-fluid"></a>
+                    <a href="#"><img src="/materials/pictures/brusselSprouts.jpg" alt="brusselSprouts" class="img_circle img-thumbnail img-fluid hover_blur"></a>
                 </div>
             </div>
             <div class="row">
                 <div class="col div class="ratio ratio-1x1">
-                    <a href="#"> <img src="/materials/pictures/Grape_leaves.jpg" alt="Grape leaves" class="img_circle img-thumbnail img-fluid"></a>
+                    <a href="#"> <img src="/materials/pictures/Grape_leaves.jpg" alt="Grape leaves" class="img_circle img-thumbnail img-fluid hover_blur"></a>
                 </div>
             </div>
           </div>
           <div class="col-lg-3">
             <div class="row form-group">
                 <div class="col">
-                    <a href="#"><img src="/materials/pictures/snails.jpg" alt="brusselSprouts" class="img_circle img-thumbnail img-fluid"></a>
+                    <a href="#"><img src="/materials/pictures/snails.jpg" alt="brusselSprouts" class="img_circle img-thumbnail img-fluid hover_blur"></a>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <a href="/html/recipe.html"> <img src="/materials/pictures/Waffle.jpeg" alt="Grape leaves" class="img_circle img-thumbnail img-fluid"></a>
+                    <a href="#"> <img src="/materials/pictures/Waffle.jpeg" alt="Grape leaves" class="img_circle img-thumbnail img-fluid hover_blur"></a>
                 </div>
             </div>
           </div>
@@ -130,5 +130,13 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"
     ></script>
+    <script>
+    const popoverTriggerList = document.querySelectorAll(
+            '[data-bs-toggle="popover"]'
+        );
+        const popoverList = [...popoverTriggerList].map(
+            (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+        );
+    </script>
 </body>
 </html>

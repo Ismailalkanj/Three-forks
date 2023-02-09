@@ -127,6 +127,11 @@ li {
   object-fit: cover;
 }
 
+.hover_blur:hover {
+  webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+
 body {
   background-image: url(/materials/pictures/background.jpeg);
   background-size: cover;
