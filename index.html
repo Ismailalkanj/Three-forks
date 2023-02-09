@@ -130,5 +130,13 @@
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"
     ></script>
+    <script>
+    const popoverTriggerList = document.querySelectorAll(
+            '[data-bs-toggle="popover"]'
+        );
+        const popoverList = [...popoverTriggerList].map(
+            (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+        );
+    </script>
 </body>
 </html>
