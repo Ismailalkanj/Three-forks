@@ -14,13 +14,13 @@
   font-family: Tangerine_bold;
   src: url(/materials/fonts/Tangerine/Tangerine-Bold.ttf);
 }
+
 .navbar-hp {
-    /* border: 2px solid red; */
-    /* display: flex; */
-    /* justify-content: center; */
-    display: flex;
-    justify-content: space-between;
-    
+  /* border: 2px solid red; */
+  /* display: flex; */
+  /* justify-content: center; */
+  display: flex;
+  justify-content: space-between;
 }
 .logo-hp {
     /* border: 2px solid rgb(197, 20, 200); */
@@ -59,15 +59,13 @@ ul {
     list-style-type: none;
 }
 li {
-    
-    
-    border: 2px solid yellowgreen;
-    margin: 18px;
-    padding: 8px;
-    /* display:flex ; */
-    /* justify-content: space-between ; */
-    background-color: greenyellow;
-    border-radius: 5px;
+  border: 2px solid yellowgreen;
+  margin: 18px;
+  padding: 8px;
+  /* display:flex ; */
+  /* justify-content: space-between ; */
+  background-color: greenyellow;
+  border-radius: 5px;
 }
 .we-are-hp {
     display: flex;
@@ -109,11 +107,10 @@ li {
     border: 2px solid pink;
     margin-left: 1000px;
 /* }  */
-#grid-container-f2{
-    /* align-content:space-between ; */
+#grid-container-f2 {
+  /* align-content:space-between ; */
 }
 #footer-lift-hp {
-
 }
 /* #footer-right-hp {
     border: 2px solid rgb(255, 0, 30); */
@@ -136,6 +133,11 @@ li {
   overflow: hidden;
   object-fit: cover;
 }
+
+/* .hover_blur:hover {
+  webkit-filter: blur(4px);
+  filter: blur(4px);
+} */
 
 body {
   background-image: url(/materials/pictures/background.jpeg);
@@ -184,4 +186,50 @@ h1 {
 .recommendations a img:hover,
 .recommendations h4:hover {
   transform: scale(1.3);
+}
+
+/* hover */
+.img-container {
+  position: relative;
+}
+
+#recipe-summary-brussel {
+  display: none;
+  position: absolute;
+}
+
+#container-brussel:hover #recipe-summary-brussel {
+  display: block;
+}
+
+#recipe-summary-grape {
+  display: none;
+  position: absolute;
+}
+
+#container-grape:hover #recipe-summary-grape {
+  display: block;
+}
+
+#recipe-summary-snail {
+  display: none;
+  position: absolute;
+}
+
+#container-snail:hover #recipe-summary-snail {
+  display: block;
+}
+
+#recipe-summary-waffle {
+  display: none;
+  position: absolute;
+}
+
+#container-waffle:hover #recipe-summary-waffle {
+  display: block;
+}
+
+.our-popover {
+  color: black;
+  background-color: rgb(194, 238, 106);
 }
