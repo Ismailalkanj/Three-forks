@@ -140,7 +140,7 @@ li {
 } */
 
 body {
-  background-image: url(./materials/pictures/background.jpeg);
+  background-image: url(materials/pictures/background.jpeg);
   background-size: cover;
   color: white;
   font-size: 20px;
