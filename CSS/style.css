@@ -2,17 +2,17 @@
 
 @font-face {
   font-family: Gloria;
-  src: url(/materials/fonts/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf);
+  src: url(./materials/fonts/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf);
 }
 
 @font-face {
   font-family: Tangerine_regular;
-  src: url(/materials/fonts/Tangerine/Tangerine-Regular.ttf);
+  src: url(./materials/fonts/Tangerine/Tangerine-Regular.ttf);
 }
 
 @font-face {
   font-family: Tangerine_bold;
-  src: url(/materials/fonts/Tangerine/Tangerine-Bold.ttf);
+  src: url(./materials/fonts/Tangerine/Tangerine-Bold.ttf);
 }
 
 .navbar-hp {
@@ -140,7 +140,7 @@ li {
 } */
 
 body {
-  background-image: url(/materials/pictures/background.jpeg);
+  background-image: url(./materials/pictures/background.jpeg);
   background-size: cover;
   color: white;
   font-size: 20px;
